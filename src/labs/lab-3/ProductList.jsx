@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ProductItem from "./ProductItem";
-import { Button, Container, Table } from "react-bootstrap";
+import { Container, Table } from "react-bootstrap";
 
 function ProductList() {
     const [products] = useState([
